@@ -1,0 +1,274 @@
+/*
+Theme Name: Sameer Halai
+Description: Child theme for the Portfolio Press theme 
+Author: Sameer Halai
+Template: portfolio-press
+*/
+
+@import url("../portfolio-press/style.css");
+
+#archives, #meta {
+	display: none;
+}
+
+#wrapper {
+	width: 720px;
+	margin: auto;
+}
+
+#content img {
+    max-width:620px;
+    height:auto;
+}
+
+#branding {
+	padding: 0px 0px 0px 0px;
+}
+
+#logo img {
+	width:720px;
+	padding:0;
+	margin:0;
+	margin-left: -20px;
+}
+
+#navigation {
+	float:left;
+	margin-top: -40px;
+	padding: 0px;
+}
+
+#navigation .menu {
+}
+
+.col-width {
+	width: auto;
+	margin: 0px;
+}
+
+.full-width #content, #portfolio.full-width, #content {
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#main {
+	padding-left: 0px;
+	margin: auto;
+        border-left: 1px ridge #a3a3a3;
+        border-right: 1px ridge #a3a3a3;
+        color: #111;
+}
+
+#colophon {
+	margin: 0px auto auto;;
+	border: none;
+	height: 80px;
+	padding: 20px 0px 0px 0px;
+	background-color: #000;
+
+	border-bottom-right-radius:10px;
+	-moz-border-radius-bottom-right:10px;
+	-webkit-border-bottom-right-radius:10px;
+
+	border-bottom-left-radius:10px;
+	-moz-border-radius-bottom-left:10px;
+	-webkit-border-bottom-left-radius:10px;
+
+}
+
+body {
+	margin-top: 20px;
+	background-color: #7c736c;
+	background-color: #6c6c6c;
+	background-image: url('images/px_by_Gre3g.png');
+}
+
+#footer-widgets .block {
+        padding-top: 5px;
+}
+
+#portfolio {
+	width: auto;
+}
+
+#portfolio .portfolio-item, #portfolio a.title-overlay {
+	height: 100px;
+	overflow: hidden;
+}
+
+#portfolio .thumb, #portfolio .portfolio-item img {
+}
+
+#search-2.widget-container.widget_search #s {
+	width: 50%;
+}
+
+/* borders and rounded edges */
+
+#colophon {
+
+	border-bottom-right-radius:10px;
+	-moz-border-radius-bottom-right:10px;
+	-webkit-border-bottom-right-radius:10px;
+
+	border-bottom-left-radius:10px;
+	-moz-border-radius-bottom-left:10px;
+	-webkit-border-bottom-left-radius:10px;
+}
+
+#footer-widgets {
+       border: none;
+}
+
+#branding {
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+
+	border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+
+	border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+}
+
+/* fonts */
+
+body {
+	font-family: "museo-1","museo-2",serif;
+	font-weight: 300;
+        color: #111;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: "adelle-1","adelle-2",serif;
+	font-weight: 600;
+}
+
+p {
+	font-family: "museo-1","museo-2",serif;
+	font-size: 16px;
+	line-height: 24px;	
+	margin:0;
+	font-weight: 300;
+}
+
+#navigation {
+	font:18px/20px "adelle-1","adelle-2",serif;
+}
+
+#logo #site-title, #logo #site-description {
+	font-family: "adelle-1","adelle-2",serif;
+	font-weight: 900;
+	color: #fff;
+}
+
+#logo #site-title a {
+    font-weight: 900;
+	line-height: 12px;
+}
+
+a:link, a:visited, a:hover {
+    color: #600000;
+}
+
+.entry-meta a:link, .entry-content a:link,.entry-meta a:visited, .entry-meta a:visited {
+    font-family: "adelle-1","adelle-2",serif;;\
+    color: #600000;
+    text-decoration: none;
+}
+
+#portfolio a.title-overlay {
+	font-family: "adelle-1","adelle-2",serif;
+}
+
+.entry-meta a:hover, .entry-content a:hover {
+   color: #A00000;
+}
+
+.page .entry-title {
+display: none;
+}
+
+.page #comments {
+display: none;
+}
+
+#site-generator {
+display: none;
+}
+
+/* phone optimizations */
+
+@media all and (max-width: 480px) {
+	body, #wrapper {
+		margin: 0; padding: 0;
+	}
+	#logo #site-title {
+		text-align: center;
+		padding-top: 0px;
+	}
+
+	#logo #site-title a {
+    		;
+	}
+
+	p {
+    		font-size: 20px;
+    		line-height: 28px;
+	}
+
+	#content h1.entry-title {
+    		font-size: 50px;
+    		line-height: 58px;
+	}
+
+	#navigation {
+		font-size:30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media all and (max-width: 1024) {
+   /* styles for narrow desktop browsers and iPad landscape */
+	p {
+    		font-size: 40px;
+    		line-height: 48px;
+	}
+}
+
+@media all and (max-width: 768) {
+    /* styles for narrower desktop browsers and iPad portrait */
+	p {
+    		font-size: 40px;
+    		line-height: 48px;
+	}
+}
+
+@media all and (max-width: 320) {
+    /* styles for iPhone/Android portrait */
+}
+
+@media all and (max-width: 240) {
+    /* styles for smaller devices */
+}
+
+#navigation .menu > ul > li:hover, #navigation .menu > ul > .current-page-item, #navigation .menu > ul > .current-menu-parent, #navigation .menu > ul > .current-menu-item {
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#aaa;
+	color: #333;
+	background:rgba(255,255,255,.25);
+	box-shadow:0 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+.layout-1col #content {
+	width: auto;
+}

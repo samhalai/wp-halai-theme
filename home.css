@@ -1,0 +1,81 @@
+body {
+	width: 33em;
+	margin: 0em;
+	padding: 0em;
+	padding-left: 3em;
+	padding-right: 3em;
+	margin: auto;
+	font-family: "museo-1","museo-2",serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 100%;
+	font-size: 1em;
+	color: #222;
+	background: #efefef url('images/noise.png');
+}
+
+header, section, nav, footer {
+		background: #efefef url('images/noise-white.png');
+		padding: 1em;
+		margin-top: -0.2em;
+}
+
+section img {
+	width: 100%;
+}
+
+p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h1, h2 {
+	font-family: "adelle-1","adelle-2",serif;
+	font-style: normal;
+}
+
+h1 {
+	color: #555;
+	font-weight: 600;
+	font-size: 3em;
+	margin-bottom: 0em;
+	margin-top: 0.5em;
+	text-shadow: 0px 2px 2px #999;
+}
+
+h3 {
+	color: #444; 
+	font-weight: 100;
+	font-size: 1em;
+	margin-top: 0em;
+	margin-bottom: 2em;
+	text-shadow: 0px 2px 2px #999;
+}
+
+nav {
+	padding: 0em;
+	margin: 0em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-left: 0.5em;
+}
+
+nav a, nav a:active, nav a:visited {
+	font-family: "adelle-1","adelle-2",serif;
+	font-style: normal;
+	font-size: 1em;
+	font-weight: 100;
+	text-decoration: none;
+	text-align: right;
+	color: #222;
+	text-shadow: 0px 2px 2px #fff;
+	padding: 0.5em 1.5em 0.5em 1.5em;
+	background: #474747 url('images/noise-light.png');
+	border-radius: 0.3em;
+}
+
+nav a.selected, nav a:hover {
+	color: #222;
+	background: #efefef url('images/noise-less-white.png');
+}
+
