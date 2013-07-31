@@ -111,6 +111,10 @@ p {
     and pages fit within page */
 section img, section iframe {
 	max-width: 100%;
+	/*height: auto;*/
+}
+
+section img {
 	height: auto;
 }
 
