@@ -15,6 +15,7 @@
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php twentyeleven_posted_on(); ?>
+			<a href="https://plus.google.com/111240859174400889773/" rel="author">by <?php the_author(); ?></a>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->

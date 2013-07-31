@@ -22,6 +22,16 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
+	<!-- <style type="text/css">
+		/* the following two rules remove the flickering that happens while the font is getting loaded */
+		.wf-loading {
+			visibility: hidden;
+		}
+
+		.wf-active {
+			visibility: visible;
+		}
+	</style> -->
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width;" />
 <title><?php
