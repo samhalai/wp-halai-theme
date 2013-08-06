@@ -31,5 +31,17 @@
 
 <?php wp_footer(); ?>
 
+	<footer id="ad-footer">
+		<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- sameerhalai bottom of post -->
+		<ins class="adsbygoogle"
+     		style="display:inline-block;width:970px;height:90px"
+     		data-ad-client="ca-pub-8908318344553366"
+     		data-ad-slot="3531634695"></ins>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	</footer>
+
 </body>
 </html>
